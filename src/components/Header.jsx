@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <div className={classes.root}>
-      <h1 style={{ marginLeft: "160px" }}>Blog App post </h1>
+      <h1 style={{ marginLeft: "160px" }}>Blog App  </h1>
 
       {location.pathname !== "/" && (
         <Link to={"/"}>
